@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="プロの整理収納アドバイザーにお任せ！自宅やオフィスをスッキリ快適空間へ。" />
+    <title>スッキリサポート</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <!-- Header & Navigation -->
+    <header class="header">
+      <div class="container header__inner">
+        <h1 class="logo"><a href="#">LOGO</a></h1>
+        <nav class="nav" id="nav">
+          <ul class="nav__list">
+            <li><a href="#hero">ホーム</a></li>
+            <li><a href="#features">選ばれる理由</a></li>
+            <li><a href="#about">ご利用の流れ</a></li>
+            <li><a href="#contact">お問い合わせ</a></li>
+          </ul>
+        </nav>
+        <button class="hamburger" id="hamburger" aria-label="メニューを開く">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="container hero__inner">
+        <h2 class="hero__title">お部屋も心も、<br>すっきり整う</h2>
+        <p class="hero__subtitle">
+          プロの整理収納アドバイザーがあなたの暮らしをサポートします。<br>初回カウンセリング無料！
+        </p>
+        <a href="#contact" class="btn btn--primary">無料で相談する</a>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+      <div class="container">
+        <h2 class="section__title">選ばれる理由</h2>
+        <div class="features__grid">
+          <div class="feature__card">
+            <h3>プロの資格保有者</h3>
+            <p>経験豊富な整理収納アドバイザーが<br>丁寧にサポート。</p>
+          </div>
+          <div class="feature__card">
+            <h3>オーダーメイド提案</h3>
+            <p>ライフスタイルに合わせた<br>最適プランをご提案。</p>
+          </div>
+          <div class="feature__card">
+            <h3>アフターフォロー</h3>
+            <p>作業後30日間の無料サポート付きで<br>安心。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section section--alt">
+      <div class="container">
+        <h2 class="section__title">ご利用の流れ</h2>
+        <p>
+          お問い合わせから作業完了まで、<br>専任スタッフがスムーズにご案内します。
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <h2 class="section__title">お問い合わせ</h2>
+        <form class="contact__form" action="#" method="post">
+          <div class="form__group">
+            <label for="name">お名前</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form__group">
+            <label for="email">メールアドレス</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form__group">
+            <label for="message">メッセージ</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary">送信</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> スッキリサポート. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
